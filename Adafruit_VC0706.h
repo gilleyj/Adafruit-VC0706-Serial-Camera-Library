@@ -86,7 +86,7 @@ class Adafruit_VC0706 {
   uint8_t getMotionStatus(uint8_t);
   boolean motionDetected();
   boolean setMotionDetect(boolean f);
-  boolean setMotionStatus(uint8_t x, uint8_t d1, uint8_t d2);
+  uint8_t setMotionStatus(uint8_t x, uint8_t d1, uint8_t d2);
   boolean cameraFrameBuffCtrl(uint8_t command);
   uint8_t getCompression();
   boolean setCompression(uint8_t c);
